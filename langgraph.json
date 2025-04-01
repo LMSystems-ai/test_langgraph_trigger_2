@@ -1,0 +1,10 @@
+{
+  "graphs": {
+    "test_langgraph_trigger": "implementation.py:compiled_agent"
+  },
+  "env": ".env",
+  "python_version": "3.10",
+  "dependencies": [
+    "."
+  ]
+}
