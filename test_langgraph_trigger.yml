@@ -1,0 +1,15 @@
+name: test_langgraph_trigger
+nodes:
+  - first_node
+  - second_node
+  - decision_node
+edges:
+  - from: first_node
+    to: second_node
+  - from: second_node
+    to: decision_node
+  - from: decision_node
+    condition: routing_function
+    paths:
+      path_a: path_a_node
+      path_b: path_b_node
