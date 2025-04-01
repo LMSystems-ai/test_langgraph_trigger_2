@@ -1,0 +1,2 @@
+# test_langgraph_trigger_2
+LangGraph implementation for test_langgraph_trigger_2
